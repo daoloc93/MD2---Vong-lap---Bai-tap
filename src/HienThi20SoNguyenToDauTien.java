@@ -9,7 +9,7 @@ public class HienThi20SoNguyenToDauTien {
         int count = 0;
         int n = 2;
 
-        while (count < numbers) {
+        while (count <= numbers) {
             boolean flag = false;
             for (int i = 2; i < n; i++) {
                 if (n % i == 0) {
