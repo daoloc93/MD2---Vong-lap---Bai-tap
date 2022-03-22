@@ -6,6 +6,7 @@ public class HienThiCacLoaiHinh {
         Scanner input = new Scanner(System.in);
         while (choice != 0) {
             System.out.println("Menu");
+            System.out.println("Press any number to draw:");
             System.out.println("1. Rectangle");
             System.out.println("2. Square Triangle bottom-left");
             System.out.println("3. Square Triangle top-left");
